@@ -1,6 +1,7 @@
 <title>Mailer spyus.us [INBOX]</title>
 <?php 
 ignore_user_abort();
+set_time_limit(0);
 function enviando() {
     $msg = 1;
     $de[1] = $_POST['de'];
